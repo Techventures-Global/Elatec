@@ -1,0 +1,45 @@
+{
+  "id": "634eb943-80ee-492a-9cf0-c92699dd0ddd",
+  "name": "Elatec",
+  "publisher": "Tech Ventures Global",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+"dependencies": [
+  {
+    "id": "186dac3f-1aaa-4816-ba71-542e596f5b18",
+    "name": "Elatec customizations",
+    "publisher": "Kumavision AG",
+    "version": "24.5.56.0"
+  },
+  {
+    "id": "2c03e548-534c-4aaa-9127-c190168991a0",
+    "name": "KUMAVISION base",
+    "publisher": "Kumavision AG",
+    "version": "26.2.4098.0"
+  }
+],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50500,
+      "to": 50549
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
