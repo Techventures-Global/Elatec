@@ -31,6 +31,12 @@ reportextension 50501 SaleOrderExtension extends 5048922
                 begin
                     LineNo1 := DocumentLine."Line No." / 10000;
                 end;
+
+                trigger OnPreDataItem()
+
+                begin
+                    DocumentLine.SetRange("Document No.", DocHeader."No.");
+                end;
             }
 
         }

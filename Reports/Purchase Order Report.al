@@ -17,7 +17,8 @@ reportextension 50500 PurchaseOrderExtension extends 5048933
             {
                 DataItemLinkReference = DocHeader;
                 DataItemLink = "Document No." = field("No.");
-                DataItemTableView = sorting("Document Type", "Document No.", "Line No.");
+
+                //DataItemTableView = sorting("Document Type", "Document No.", "Line No.");
                 column(Unit_of_Measure_Code; "Unit of Measure Code")
                 {
                 }
@@ -31,10 +32,25 @@ reportextension 50500 PurchaseOrderExtension extends 5048933
                 begin
                     LineNo1 := DocumentLine."Line No." / 10000;
                 end;
+
+                trigger OnPreDataItem()
+
+                begin
+                    DocumentLine.SetRange("Document No.", DocHeader."No.");
+                end;
             }
+
 
         }
     }
+    requestpage
+    {
+        trigger OnOpenPage()
+        begin
+            DocumentLine.SetFilter("Document No.", '');
+        end;
+    }
+
     rendering
     {
         layout("Purchase - Order")
@@ -43,6 +59,7 @@ reportextension 50500 PurchaseOrderExtension extends 5048933
             LayoutFile = './Reports/KVSKFWMasterDocument.rdlc';
         }
     }
+
     trigger OnPreReport()
     begin
         CompInfo.Get();

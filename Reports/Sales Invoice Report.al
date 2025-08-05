@@ -32,6 +32,12 @@ reportextension 50502 SaleInvoiceExtension extends 5048924
                 begin
                     LineNo1 := DocumentLine."Line No." / 10000;
                 end;
+
+                trigger OnPreDataItem()
+
+                begin
+                    DocumentLine.SetRange("Document No.", DocHeader."No.");
+                end;
             }
 
         }
