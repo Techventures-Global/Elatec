@@ -24,12 +24,14 @@ reportextension 50501 SaleOrderExtension extends 5048922
                 column(Amount_Including_VAT; "Amount Including VAT") { }
                 //column(TVS_LineNo; TVS_LineNo) { }
                 column(DocumentNo; "Document No.") { }
-                column(LineNo; LineNo1) { }
+                column(LineNo; Counter) { }
                 column(VAT__; "VAT %") { }
 
                 trigger OnAfterGetRecord()
                 begin
                     LineNo1 := DocumentLine."Line No." / 10000;
+                    if DocumentLine.Type <> DocumentLine.Type::" " then
+                        Counter += 1;
                 end;
 
                 trigger OnPreDataItem()
@@ -60,4 +62,5 @@ reportextension 50501 SaleOrderExtension extends 5048922
         tab: Record 38;
         tabl: Record 39;
         LineNo1: Integer;
+        Counter: Integer;
 }

@@ -25,12 +25,17 @@ reportextension 50500 PurchaseOrderExtension extends 5048933
                 column(Amount_Including_VAT; "Amount Including VAT") { }
                 column(TVS_LineNo; TVS_LineNo) { }
                 column(DocumentNo; "Document No.") { }
-                column(LineNo; LineNo1) { }
+                column(LineNo; Counter) { }
                 column(VAT__; "VAT %") { }
 
                 trigger OnAfterGetRecord()
                 begin
+                    //LineNo1 := DocumentLine."Line No." / 10000;
                     LineNo1 := DocumentLine."Line No." / 10000;
+
+                    if DocumentLine.Type <> DocumentLine.Type::" " then
+                        Counter += 1;
+
                 end;
 
                 trigger OnPreDataItem()
@@ -68,6 +73,7 @@ reportextension 50500 PurchaseOrderExtension extends 5048933
     var
         CompInfo: Record "Company Information";
         LineNo1: Integer;
+        Counter: Integer;
         Rep: Report 1322;
         tab: Record 38;
         tabl: Record 39;
