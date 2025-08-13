@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-08-13T09:17:58.9293646Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-08-13T13:37:41.2238551Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -160,7 +160,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>20.15049cm</Width>
+                  <Width>21.6301cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -3081,7 +3081,7 @@
                                     <Width>1.90586cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.84266cm</Width>
+                                    <Width>2.70185cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.49785cm</Width>
@@ -3102,13 +3102,13 @@
                                     <Width>1.8211cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
+                                    <Width>1.97485cm</Width>
+                                  </TablixColumn>
+                                  <TablixColumn>
+                                    <Width>0.71817cm</Width>
+                                  </TablixColumn>
+                                  <TablixColumn>
                                     <Width>1.8211cm</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.99719cm</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>1.56218cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>0.07938cm</Width>
@@ -6607,7 +6607,7 @@
                                                       <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
                                                       <FontSize>8pt</FontSize>
                                                       <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <Format>f2</Format>
+                                                      <Format>#,0.00;(#,0.00)</Format>
                                                       <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
                                                       <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
                                                     </Style>
@@ -6644,6 +6644,7 @@
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                       <FontWeight>Normal</FontWeight>
+                                                      <Format>#,0.00;(#,0.00)</Format>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -6712,6 +6713,7 @@
                                                       <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
                                                       <FontSize>8pt</FontSize>
                                                       <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <Format>#,0.00;(#,0.00)</Format>
                                                       <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
                                                       <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
                                                     </Style>
@@ -16539,7 +16541,7 @@
                               <Top>13cm</Top>
                               <Left>1.588cm</Left>
                               <Height>13.949cm</Height>
-                              <Width>18.02917cm</Width>
+                              <Width>20.022cm</Width>
                               <ZIndex>15</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(CStr(Fields!TableType.Value) &gt; "", FALSE,TRUE)</Hidden>
@@ -42391,7 +42393,7 @@
               </Filter>
             </Filters>
             <Height>125cm</Height>
-            <Width>20.15049cm</Width>
+            <Width>21.6301cm</Width>
             <Style />
           </Tablix>
           <Tablix Name="DataItemDebugTablix">
@@ -44092,7 +44094,7 @@
         <Height>126.9cm</Height>
         <Style />
       </Body>
-      <Width>20.15049cm</Width>
+      <Width>21.6301cm</Width>
       <Page>
         <PageHeader>
           <Height>4cm</Height>
@@ -45325,7 +45327,7 @@
           <Style />
         </PageFooter>
         <PageHeight>29.7cm</PageHeight>
-        <PageWidth>21cm</PageWidth>
+        <PageWidth>22cm</PageWidth>
         <LeftMargin>0cm</LeftMargin>
         <RightMargin>0cm</RightMargin>
         <TopMargin>0.3cm</TopMargin>
