@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-08-13T13:17:52.1597568Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-08-18T06:21:47.9079474Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -160,7 +160,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>20.67645cm</Width>
+                  <Width>20.29791cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -2975,7 +2975,10 @@
                                     <Width>0.87308cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.62709cm</Width>
+                                    <Width>1.8211cm</Width>
+                                  </TablixColumn>
+                                  <TablixColumn>
+                                    <Width>0.24855cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.28175cm</Width>
@@ -2988,9 +2991,6 @@
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>0.72258cm</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>1.8211cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>0.07938cm</Width>
@@ -3201,6 +3201,39 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox121">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Code.GetDocumentData("DocLine_Third_Caption")</Value>
+                                                    <Style>
+                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
+                                                      <FontSize>9pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox121</rd:DefaultName>
+                                            <Style>
+                                              <VerticalAlign>Bottom</VerticalAlign>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_AmountCaption">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -3362,40 +3395,6 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox56">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Code.GetDocumentData("DocLine_Third_Caption")</Value>
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>9pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox56</rd:DefaultName>
-                                            <Style>
-                                              <VerticalAlign>Bottom</VerticalAlign>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell>
@@ -3615,6 +3614,42 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox122">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
+                                                      <FontSize>9pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox122</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                                <Width>0.3pt</Width>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="Textbox94">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -3780,42 +3815,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox8</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox57">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>9pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox57</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -4035,6 +4034,39 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox123">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
+                                                      <FontSize>9pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox123</rd:DefaultName>
+                                            <Style>
+                                              <VerticalAlign>Bottom</VerticalAlign>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_UOMCaption2">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -4199,39 +4231,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox58">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>9pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox58</rd:DefaultName>
-                                            <Style>
-                                              <VerticalAlign>Bottom</VerticalAlign>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller03">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -4371,9 +4370,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>5</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -4523,42 +4523,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox59">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>9pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Center</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox59</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller04">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -4631,9 +4595,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -4797,43 +4762,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox60">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(0)</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox60</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <TopBorder>
-                                                <Style>Solid</Style>
-                                              </TopBorder>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller05">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -4900,9 +4828,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -5038,36 +4967,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox61">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(0)</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox61</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller06">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -5127,9 +5026,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -5254,36 +5154,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox17</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox62">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(-1)</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox62</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -5536,6 +5406,38 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox124">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
+                                                      <FontSize>=Code.GetDefaultFontSize(-1)</FontSize>
+                                                      <Color>Red</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox124</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox108">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -5691,36 +5593,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox63">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(-1)</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox63</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller08">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -5809,9 +5681,10 @@
                                               <BackgroundColor>#d2f5f5</BackgroundColor>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -5975,43 +5848,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox64">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(-2)</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox64</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Color>Red</Color>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <TopBorder>
-                                                <Style>Solid</Style>
-                                              </TopBorder>
-                                              <BottomBorder>
-                                                <Style>Solid</Style>
-                                              </BottomBorder>
-                                              <BackgroundColor>#d2f5f5</BackgroundColor>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller09">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -6116,9 +5952,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>7</ColSpan>
+                                          <ColSpan>8</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -6256,41 +6093,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox20</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox65">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox65</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -6545,6 +6347,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox125">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Code.GetLineDataDirectBlankZero(Fields!LineFields.Value,"DocLine_Third")</Value>
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox125</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_DocLine_LineAmount">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -6618,7 +6455,11 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Code.GetLineDataDirectBlankZero(Fields!LineFields.Value, "DocLine_Third") * (CDbl(Code.GetData1(Fields!NewBlockTrigger.Value, 3)) / 100)</Value>
+                                                    <Value>=FormatNumber(
+    Code.GetLineDataDirectBlankZero(Fields!LineFields.Value, "DocLine_Third") * 
+    (CDbl(Code.GetData1(Fields!NewBlockTrigger.Value, 3)) / 100), 
+    2
+)</Value>
                                                     <Style>
                                                       <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
                                                       <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
@@ -6654,7 +6495,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Code.GetData1(Fields!NewBlockTrigger.Value, 2)</Value>
+                                                    <Value>=FormatNumber(Code.GetData1(Fields!NewBlockTrigger.Value, 2),2)</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                       <FontWeight>Normal</FontWeight>
@@ -6703,41 +6544,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox22</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox66">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Code.GetLineDataDirectBlankZero(Fields!LineFields.Value,"DocLine_Third")</Value>
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox66</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -6962,6 +6768,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox126">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox126</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="Textbox95">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -7126,41 +6967,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox27</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox67">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox67</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -7386,6 +7192,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox127">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox127</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_DocLine_UOM2">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -7560,41 +7401,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox68">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox68</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller11">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -7735,9 +7541,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>5</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -7872,41 +7679,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox29</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox69">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Center</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox69</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -8093,9 +7865,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>5</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -8230,41 +8003,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox30</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox70">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox70</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -8490,6 +8228,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox128">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox128</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox129">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -8653,41 +8426,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox31</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox71">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox71</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -8944,6 +8682,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox129">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox129</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_DocLine_AlternativeLineAmount">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -9108,41 +8881,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox32</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox72">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox72</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -9406,6 +9144,44 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox130">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox130</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_DocLine_SubTotalFormated">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -9581,44 +9357,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox33</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox73">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox73</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -9818,6 +9556,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox131">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox131</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_DocLine_SubTotal">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -9982,41 +9755,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox34</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox74">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox74</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -10207,6 +9945,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox132">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox132</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox145">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -10370,41 +10143,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox35</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox75">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox75</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -10599,6 +10337,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox133">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox133</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox147">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -10774,41 +10547,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox76">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox76</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller18">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -10948,9 +10686,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>5</ColSpan>
+                                          <ColSpan>6</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -11086,41 +10825,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox38</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox77">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox77</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -11369,6 +11073,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox134">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox134</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox151">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -11539,39 +11278,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox78">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox78</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller20">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -11670,7 +11376,7 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>7</ColSpan>
+                                          <ColSpan>6</ColSpan>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell />
@@ -11678,7 +11384,74 @@
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
-                                      <TablixCell />
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox148">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Code.GetLineDataDirect(Fields!LineFields.Value,"DocLine_Description")</Value>
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Right</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox148</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox149">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox149</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
                                       <TablixCell>
                                         <CellContents>
                                           <Textbox Name="Textbox273">
@@ -11817,10 +11590,8 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
                                       <TablixCell>
                                         <CellContents>
                                           <Textbox Name="MT_CAFiller21">
@@ -11915,9 +11686,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>6</ColSpan>
+                                          <ColSpan>7</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -12036,35 +11808,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox41</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox80">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox80</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -12307,6 +12050,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox135">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox135</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox161">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -12466,39 +12244,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox42</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox81">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox81</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -12748,6 +12493,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox136">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox136</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox167">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -12907,39 +12687,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox43</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox82">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox82</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -13186,6 +12933,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox138">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox138</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox172">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -13345,39 +13127,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox44</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox83">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox83</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -13596,6 +13345,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox140">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox140</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_ITLine_QuantityCaption">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -13759,41 +13543,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox45</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox84">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox84</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -13988,9 +13737,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>5</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -14146,42 +13896,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox85">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox85</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox10">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -14291,9 +14005,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>7</ColSpan>
+                                          <ColSpan>8</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -14450,46 +14165,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox47</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <TopBorder>
-                                                <Style>Solid</Style>
-                                              </TopBorder>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox86">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox86</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -14718,6 +14393,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox141">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox141</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_ITLine_Quantity">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -14895,41 +14605,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox87">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox87</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller27">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -15095,9 +14770,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>4</ColSpan>
+                                          <ColSpan>5</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -15230,39 +14906,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox50</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox88">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox88</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,7)</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -15542,6 +15185,41 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
+                                          <Textbox Name="Textbox142">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
+                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
+                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
+                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>Center</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox142</rd:DefaultName>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>1pt</PaddingTop>
+                                              <PaddingBottom>1pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
                                           <Textbox Name="MT_Textbox203">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -15712,39 +15390,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox89">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox89</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller28">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -15817,9 +15462,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -15995,46 +15641,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox90">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,2)</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox90</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <BottomBorder>
-                                                <Style>=IIF(Code.GetStaticData("PrintLineBlockSeparator")="2","Solid","None")</Style>
-                                              </BottomBorder>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller29">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -16111,9 +15717,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -16277,43 +15884,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox91">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,2)</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox91</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                                <Width>0.3pt</Width>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller30">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -16383,9 +15953,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -16533,39 +16104,6 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox92">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,4)</FontStyle>
-                                                      <FontFamily>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,1)</FontFamily>
-                                                      <FontSize>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,2)</FontSize>
-                                                      <FontWeight>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,5)</FontWeight>
-                                                      <TextDecoration>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,6)</TextDecoration>
-                                                      <Color>=Code.GetLineFontFormat(Fields!DocLine_Format.Value,3)</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox92</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="MT_CAFiller31">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
@@ -16627,9 +16165,10 @@
                                               <PaddingBottom>1pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>8</ColSpan>
+                                          <ColSpan>9</ColSpan>
                                         </CellContents>
                                       </TablixCell>
+                                      <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
                                       <TablixCell />
@@ -16750,35 +16289,6 @@
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>Textbox55</rd:DefaultName>
-                                            <Style>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>1pt</PaddingTop>
-                                              <PaddingBottom>1pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox93">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>=Code.GetDefaultFont()</FontFamily>
-                                                      <FontSize>=Code.GetDefaultFontSize(0)</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox93</rd:DefaultName>
                                             <Style>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
@@ -17119,7 +16629,7 @@
                               <Top>13cm</Top>
                               <Left>1.588cm</Left>
                               <Height>13.949cm</Height>
-                              <Width>19.08845cm</Width>
+                              <Width>18.70991cm</Width>
                               <ZIndex>15</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(CStr(Fields!TableType.Value) &gt; "", FALSE,TRUE)</Hidden>
@@ -42971,7 +42481,7 @@
               </Filter>
             </Filters>
             <Height>125cm</Height>
-            <Width>20.67645cm</Width>
+            <Width>20.29791cm</Width>
             <Style />
           </Tablix>
           <Tablix Name="DataItemDebugTablix">
@@ -44672,7 +44182,7 @@
         <Height>126.9cm</Height>
         <Style />
       </Body>
-      <Width>20.67645cm</Width>
+      <Width>20.29791cm</Width>
       <Page>
         <PageHeader>
           <Height>4cm</Height>
